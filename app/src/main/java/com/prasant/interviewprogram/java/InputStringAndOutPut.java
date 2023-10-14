@@ -9,6 +9,7 @@ public class InputStringAndOutPut {
         StringBuilder currentString = new StringBuilder();
         int currentCount = 0;
 
+
         for (char c : input.toCharArray()) {
             if (Character.isDigit(c)) {
                 currentCount = currentCount * 10 + (c - '0');
